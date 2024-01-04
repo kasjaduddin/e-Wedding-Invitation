@@ -11,15 +11,19 @@
     <div>
       <div>
         <label for="">Nama</label>
-        <input type="text" name="" id="nama" placeholder="">
+        <input type="text" name="" id="nama" placeholder="Nama">
       </div>
       <div>
         <label for="">Kedatangan</label>
-        <input type="search" name="" id="kedatangan" placeholder="">
+        <select id="kedatangan">
+          <option value="Hadir">Hadir</option>
+          <option value="Belum Pasti">Belum Pasti</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+        </select>
       </div>
       <div>
         <label for="">Ucapan/ Doa</label>
-        <input type="search" name="" id="ucapan" placeholder="">
+        <input type="text" name="" id="ucapan" placeholder="Tulis Ucapan/ Doa">
       </div>
       <button type="submit" onclick="writeGuestBook()"></button>
     </div>
