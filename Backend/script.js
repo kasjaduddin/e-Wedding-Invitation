@@ -2,26 +2,25 @@ let guestName = document.getElementById("nama");
 let attendance = document.getElementById("kedatangan");
 let message = document.getElementById("ucapan");
 
-// chat();
-// function chat(params) {
-//     fetch("https://e-wedding-invitation-d200d-default-rtdb.asia-southeast1.firebasedatabase.app/guestbook.json?auth=yQO7wliGgtnklppvbHcTCjZl2kT4Tsc69RhFxOt4")
-//       .then((res) => res.json())
-//       .then((data) => {
-//         let baloon = "";
-//         let output = Object.entries(data);
-//         output.forEach((row) => {
-//             baloon += `
-//           <tr>
-//               <td>${row[1].nama}</td>
-//               <td>${row[1].nohp}</td>
-//               <td><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</td>
-//               <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Hapus</td>
-//           </tr>
-//           `;
-//         });
-//         tbody.innerHTML = tabel;
-//       });
-//   }
+chat();
+function chat(params) {
+    fetch("https://e-wedding-invitation-d200d-default-rtdb.asia-southeast1.firebasedatabase.app/guestbook.json?auth=yQO7wliGgtnklppvbHcTCjZl2kT4Tsc69RhFxOt4")
+      .then((res) => res.json())
+      .then((data) => {
+        let baloon = "";
+        let output = Object.entries(data);
+        output.forEach((row) => {
+            baloon += `
+            <div style="background-color: darkgrey; margin-top: 50px; margin-inline: 100px; width: auto; height: auto;">
+                <p>${row[1].nama}</p>
+                <p>${row[1].kedatangan}</p>
+                <p>${row[1].ucapan}</p>
+            </div>
+          `;
+        });
+        chatroom.innerHTML = baloon;
+      });
+  }
 
 function writeGuestBook(params) {
     let data = {
