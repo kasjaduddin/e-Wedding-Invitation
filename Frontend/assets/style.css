@@ -1,0 +1,73 @@
+@media screen and (max-width : 576px) {
+    body {
+        background-image: url('./background-cover-mobile.svg');
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    .initial img{
+        margin-top: 26.3%;
+        width: 42.5%;
+        height: auto;
+    }
+    .thing p {
+        font-size: 187.5%;
+        margin-top: 3%;
+    }
+    .wedding-couple p {
+        font-size: 250%;
+        margin-top: 3%;
+    }
+    .open button {
+        padding-inline: 3.3%;
+    }
+}
+
+@media screen and (min-width : 576px) {
+    .initial img{
+        margin-top: 0%;
+        width: 32.3%;
+        height: auto;
+    }
+    .thing p {
+        font-size: 3rem;
+    }
+    .wedding-couple p {
+        font-size: 6.27rem;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .initial img{
+        margin-top: 0%;
+        width: 33.6%;
+        height: auto;
+    }
+    .thing p {
+        font-size: 3.16rem;
+    }
+    .wedding-couple p {
+        font-size: 6.5rem;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    body {
+        background-image: url('./assets/cover-background.svg'); 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-size: cover;
+    }
+    .initial img{
+        margin-top: 0%;
+        width: 19.4%;
+        height: auto;
+    }
+    .thing p {
+        font-size: 3.3rem;
+    }
+    .wedding-couple p {
+        font-size: 6.8rem;
+    }
+}
