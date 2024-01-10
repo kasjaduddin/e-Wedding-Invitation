@@ -1,3 +1,4 @@
+/* Mobile */
 @media screen and (max-width : 576px) {
     .initial img{
         margin-top: 20%;
@@ -19,6 +20,7 @@
     }
 }
 
+/* Tablet */
 @media screen and (min-width : 576px) {
     .initial img{
         margin-top: 26.3%;
@@ -39,67 +41,53 @@
 }
 
 @media screen and (min-width : 768px) {
-    .initial img{
-        margin-top: 14%;
-        width: 18%;
+    
+}
+
+
+/* Laptop dan Komputer */
+@media screen and (min-width : 992px) {
+    .bg-behav {
+        background-image: url('./background-1-desktop.png');
+        background-repeat: no-repeat;
+        background-position: center top; 
+        background-size: 100%;
+        min-width: 100vw;
         height: auto;
     }
-    .thing p {
-        font-size: 3.3rem;
-        margin-top: 0%;
+
+    .fc-1 {
+        color: #545454;
+    }
+
+    .fc-2 {
+        color: #332E2A;
+    }
+
+    .initial {
+        font-size: 1008%;
+    }
+
+    .fs-53 {
+        font-size: 239%;
+    }
+
+    .fs-110 {
+        font-size: 496%;
+    }
+
+    .btn-open {
+        background-color: #F4E2DE;
+        padding-block: 14px; 
+        padding-inline: 25px;
+    }
+
+    .mb-0 {
         margin-bottom: 0%;
-    }
-    .wedding-couple p {
-        font-size: 6rem;
-        margin-top: 0%;
-        padding-inline: 25%;
-    }
-
-    .mp-1 {
-        margin-top: 539px;
-    }
-
-    .mp-2 {
-        margin-top: 370px;
-    }
-
-    .mp-3 {
-        margin-top: 539px;
     }
 }
 
-@media screen and (min-width : 992px) {
-    .bg-behav {
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover; 
-        height: 100vh;
-    }
-    .initial img{
-        margin-top: 1.6%;
-        width: 12%;
-        height: auto;
-    }
-    .thing p {
-        font-size: 2.25rem;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-    .wedding-couple p {
-        font-size: 5.25rem;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-
-    .pp-1 {
-        padding-top: 25%;
-    }
-
-    .pp-2 {
-        padding-top: 25%;
-    }
-
-    .pp-3 {
-        padding-top: 10%;
-    }
+@font-face {
+    font-family: VVDS-Fifties;
+    src: url(VVDS-Fifties-Cond-Reg.otf);
 }
