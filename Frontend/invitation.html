@@ -90,23 +90,23 @@
           Countdown
         </h1>
         <div
-          class="timer live-widget justify-content-center"
+          class="timer justify-content-center"
           style="display: flex"
         >
           <div style="margin-left: 657px; text-align: center">
-            <p id="days">00</p>
+            <p id="days"></p>
             <span style="font-size: 30px">Hari</span>
           </div>
           <div style="margin-bottom: 10px; text-align: center">
-            <p id="hours">00</p>
+            <p id="hours"></p>
             <span style="font-size: 30px">Jam</span>
           </div>
           <div style="text-align: center">
-            <p id="minutes">00</p>
+            <p id="minutes"></p>
             <span style="font-size: 30px">Menit</span>
           </div>
           <div style="margin-right: 657px; text-align: center">
-            <p id="seconds">00</p>
+            <p id="seconds"></p>
             <span style="font-size: 30px">Detik</span>
           </div>
         </div>
@@ -155,6 +155,17 @@
       </div>
       <button type="submit" onclick="writeGuestBook()"></button>
       <div id="chatroom"></div>
+
+      <div class="row">
+        <div class="col-3">
+          <p class="fc-2" style="font-family: VVDS-Fifties; font-size: 200%">${row[1].nama}</p>
+        </div>
+        <div class="col-3 rounded-pill pt-3" style="background: var(--fonttt, #545454);">
+          <p class="fc-2" style="font-family: VVDS-Fifties; font-size: 150%; color: #F9F2EC;">${row[1].kedatangan}</p>
+        </div>
+          <p class="fc-2 mt-3" style="font-family: VVDS-Fifties; font-size: 150%;">${row[1].ucapan}</p>
+      </div>
+
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
