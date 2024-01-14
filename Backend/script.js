@@ -38,11 +38,11 @@ function chat(params) {
         let output = Object.entries(data);
         output.forEach((row) => {
             baloon += `
-            <div class="d-flex flex-row justify-content-center my-4" style="font-family: VVDS-Fifties;">
+            <div class="d-flex flex-row justify-content-center my-4" style="font-family: VVDS-Fifties; overflow-wrap: break-word;">
                 <div class="ratio-chat-1">
                     <img src="./assets/icon-profile.svg" alt="" class="me-2" style="width: 65%;">
                 </div>
-                <div class="border rounded-4 shadow-sm ps-3 ratio-chat-2" style="background: #F9F2EC;">
+                <div class="border rounded-4 shadow-sm px-3 ratio-chat-2" style="background: #F9F2EC;">
                     <div class="d-flex">
                         <p class="text-start fc-2 fs-2 mt-2 me-4" style="padding-left: 0px;">${row[1].nama}</p>
                         <div class="border rounded-pill py-2 px-3 kedatangan" style="width: auto; background: var(--fonttt, #545454); margin: 12px;">
