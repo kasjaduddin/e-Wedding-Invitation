@@ -84,7 +84,7 @@
     }
 
     .mt-180 {
-        margin-top: 60px;
+        margin-top: 10px;
     }
 
     .mb-50 {
@@ -96,7 +96,7 @@
     }
 
     .pt-50 {
-        padding-top: 25px;
+        padding-top: 100px;
     }
 
     .pt-60 {
@@ -104,11 +104,11 @@
     }
 
     .pt-100 {
-        padding-top: 50px;
+        padding-top: 300px;
     }
 
     .pt-120 {
-        padding-top: 60px;
+        padding-top: 280px;
     }
 
     .pb-50 {
@@ -167,23 +167,27 @@
     }
 
     .page {
-        min-height: 400px;;
+        min-height: 832px;
+    }
+
+    .page-mobile {
+        min-height: 832px;
     }
 
     .page-1 {
-        padding-top: 180px;
+        padding-top: 230px;
     }
 
     .page-2 {
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
     .page-3 {
-        padding-top: 70px;
+        padding-top: 110px;
     }
 
     .page-4-5 {
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .page-11 {
@@ -234,7 +238,7 @@
     }
 
     .surat {
-        margin-top: 100px;
+        margin-top: 0px;
         margin-bottom: 8px
     }
 
@@ -338,6 +342,15 @@
 
     .box p {
         animation: fadeIn 1s ease-in-out;
+    }
+
+    .count {
+        margin-bottom: 0px;
+    }
+
+    .time {
+        margin-top: 10px;
+        font-size: 20px;
     }
 }
 
@@ -565,7 +578,7 @@
     }
 
     .page {
-        min-height: 1100px;;
+        min-height: 1100px;
     }
 
     .page-1 {
@@ -574,6 +587,10 @@
 
     .page-2 {
         padding-top: 0px;
+    }
+
+    .page-desktop {
+        min-height: 1100px;
     }
 
     .blur-box {
@@ -690,20 +707,7 @@
   scrollbar-width: none;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.profile {
-  animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
+/*@keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -715,8 +719,25 @@
   .box p {
     animation: fadeIn 1s ease-in-out;
   }
+
+  /*@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
   
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
   
+  .fade {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  .fade-out {
+    animation: fadeOut 2s ease-in-out forwards;
+  }*/
+  /*-----------------------------------------------------------------*/
 /*test mobile*/
 
 

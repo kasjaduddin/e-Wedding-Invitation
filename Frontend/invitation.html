@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alex+Brush"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body>
     <audio autoplay src="./assets/Yiruma - May Be.mp3"></audio>
@@ -18,7 +20,8 @@
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
-        <div class="page page-1">
+        <div class="page page-1" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="d-flex flex-row justify-content-center text-light box blur-box ">
                 <div>
                     <p class="fs-53 fw-semibold" style="font-family: VVDS-Fifties;">The Wedding Of</p>
@@ -27,7 +30,9 @@
                 </div>
             </div>
         </div>
-        <div class="page page-2">
+        <div class="page-mobile">
+            <div class="page-desktop page-2" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="d-flex flex-row justify-content-center fc-1">
                 <div>
                     <p class="fs-110 surat" style="font-family: Pacifico;">Ar-Rum : 21</p>
@@ -37,7 +42,8 @@
                 </div>                
             </div>
         </div>
-        <div class="page page-3">
+        <div class="page-desktop page-3" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="d-flex flex-row justify-content-center">
                 <p class="fc-1 fs-05" style="font-family: Pacifico;">Our Beloved Bride and Groom</p>
             </div>
@@ -47,7 +53,7 @@
                     <p class="fs-53 fc-1 mt-1" style="font-family: Pacifico;">Shabrina Alifah, B.A</p>
                 </div>
                 <div>
-                    <p class="fs-110 mt-5 mx-5" style="font-family: Alex Brush;">&</p>
+                    <p class="mt-5 mx-5" style="font-family: Alex Brush;">&</p>
                 </div>
                 <div>
                     <img class="profile-2" src="./assets/photo-profile-muchsin.png" alt="">
@@ -68,41 +74,51 @@
                 </div>
             </div>
         </div>
+        </div>
+        
         <div class="page page-4-5">
             <div class="d-flex flex-row justify-content-center">
                 <div>
-                    <p class="fs-110 text-light" style="font-family: Pacifico;">Counting The Days</p>
+                    <p class="fs-110 text-light count" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" style="font-family: Pacifico;">Counting The Days</p>
                 </div>
             </div>
             <div class="d-flex flex-row justify-content-center fs-53 fc-2 fw-bold cd" style="font-family: VVDS-Fifties;">
-                <div class="mx-5 rounded-4 shadow-sm" style="background: #DEE3E6;">
-                    <p id="days"></p>
+                <div class="mx-5">
+                    <p class="rounded-4 shadow-sm" style="background: #DEE3E6;" id="days"></p>
+                    <p class="text-white">Days</p>
                 </div>
-                <div class="me-5 rounded-4 shadow-sm" style="background: #DEE3E6;">
-                    <p id="hours"></p>
+                <div class="me-5">
+                    <p class="rounded-4 shadow-sm" style="background: #DEE3E6;" id="hours"></p>
+                    <p class="text-white">Hours</p>
                 </div>
-                <div class="me-5 rounded-4 shadow-sm" style="background: #DEE3E6;">
-                    <p id="minutes"></p>
+                <div class="me-5">
+                    <p class="rounded-4 shadow-sm" style="background: #DEE3E6;" id="minutes"></p>
+                    <p class="text-white time">Minutes</p>
                 </div>
-                <div class="me-5 rounded-4 shadow-sm" style="background: #DEE3E6;">
-                    <p id="seconds"></p>
+                <div class="me-5">
+                    <p class="rounded-4 shadow-sm" style="background: #DEE3E6;" id="seconds"></p>
+                    <p class="text-white time">Seconds</p>
                 </div>  
             </div>
-            <div class="d-flex flex-row justify-content-center mt-180">
+            <div class="d-flex flex-row justify-content-center mt-180" data-aos="zoom-in-up">
                 <p class="fs-110 fc-1" style="font-family: Pacifico;">Resepsi</p>
             </div>
             <div class="box flower-box rounded-5">
                 <div class="d-flex flex-row justify-content-between">
                     <img class="flower" src="./assets/flower-left-top.png" alt="">
                     <div>
-                        <div class="fc-1 pt-50" style="font-family: VVDS-Fifties;">
+                        <div class="fc-1 pt-50" data-aos="fade-up"
+                        data-aos-duration="3000" style="font-family: VVDS-Fifties;">
                             <p class="fw-bold fs-100">Sabtu</p>
                             <p class="fs-53 fw-bold">10 February 2024</p>
                         </div>
                     </div>
                     <img class="flower" src="./assets/flower-right-top.png" alt="">
                 </div>
-                <div class="d-flex flex-row justify-content-center fc-1"  style="font-family: VVDS-Fifties;">
+                <div class="d-flex flex-row justify-content-center fc-1" data-aos="fade-up"
+                data-aos-duration="3000" style="font-family: VVDS-Fifties;">
                     <div>
                         <p class="fs-45 fw-bold">11:00 - 12:00 WIB & 12:00 - 13:00 WIB</p>
                         <img class="location mt-50" src="./assets/icon-location.svg" alt="">
@@ -112,7 +128,7 @@
                 </div>
                 <div class="d-flex flex-row justify-content-between">
                     <img class="flower" src="./assets/flower-left-bottom.png" alt="">
-                    <div class="mb-50 align-self-center">
+                    <div class="mb-50 align-self-center gmaps" data-aos="zoom-in-up">
                         <a class="btn btn-open btn-outline-dark rounded-pill shadow" href="https://maps.app.goo.gl/MjtiFHYqngv4aKs36" role="button">
                             <h2 style="font-family: Playfair Display;">Google Maps</h2>
                         </a>
@@ -122,7 +138,7 @@
             </div>
             <div class="d-flex flex-row justify-content-center pt-50">
                 <div>
-                    <p class="fs-110 fc-1" style="font-family: Pacifico;">Our Story</p>
+                    <p class="fs-110 fc-1" data-aos="zoom-in-up" style="font-family: Pacifico;">Our Story</p>
                 </div>
             </div>
         </div>
@@ -167,7 +183,7 @@
         <div class="page page-9">
             <div class="d-flex flex-row justify-content-center pt-120">
                 <div>
-                    <p class="fs-110 fc-1" style="font-family: Pacifico; margin-bottom: 50px;">Our Gallery</p>
+                    <p class="fs-110 fc-1" data-aos="zoom-in-up" style="font-family: Pacifico; margin-bottom: 50px;">Our Gallery</p>
                     <div id="carouselExample" class="carousel slide m-slide pi-50" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active nav-slide" aria-current="true" aria-label="Slide 1"></button>
@@ -277,7 +293,7 @@
                     <img class="flower" src="./assets/flower-right-top.png" alt="">
                 </div>
                 <div class="pi-100">
-                    <div id="chatroom" class="hide-scroll chat" style="overflow: scroll; overflow-x: hidden;"></div>
+                    <div id="chatroom" class="chat" style="overflow: scroll; overflow-x: hidden;"></div>
                 </div>
                 <div class="d-flex flex-row justify-content-between">
                     <img class="flower" src="./assets/flower-left-bottom.png" alt="">
@@ -289,5 +305,9 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../Backend/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
