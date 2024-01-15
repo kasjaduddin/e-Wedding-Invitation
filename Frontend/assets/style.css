@@ -183,7 +183,7 @@
     }
 
     .page-3 {
-        padding-top: 110px;
+        padding-top: 160px;
     }
 
     .page-4-5 {
@@ -345,11 +345,11 @@
     }
 
     .count {
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 
     .time {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 20px;
     }
 }
